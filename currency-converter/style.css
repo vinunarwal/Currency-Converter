@@ -1,0 +1,86 @@
+body {
+   background-color: gray;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+
+
+.heading {
+   margin: 35px auto 20px;
+   color: whitesmoke;
+   font-style: italic;
+   font-weight: 500;
+}
+
+
+.container {
+   padding-top: 6%;
+}
+
+.main {
+   width: 50vw;
+   margin: auto;
+   padding: 30px;
+   border-radius: 15px;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+}
+
+label {
+   font-size: 25px;
+}
+
+.btn {
+   width: 200px;
+}
+
+
+#finalAmount {
+   font-family: 'Lobster', cursive;
+   display: none;
+   margin: 50px auto;
+}
+
+.btns button{
+   border-radius: 30px;
+   font-size: 21px;
+   background-color: cornflowerblue;
+   font-weight: 500;
+
+}
+
+
+#finalAmount h2 {
+   font-size: 50px;
+   color: aliceblue;
+}
+
+.finalValue {
+   font-family: 'Amiri', serif;
+   color: ghostwhite;
+   font-weight: 600;
+   font-style: italic;
+}
+
+@media (max-width: 768px) {
+
+   .main {
+      width: 100%;
+   }
+}
+
+
+
+@media (max-width: 400px) {
+
+   .heading {
+      font-size: 60px;
+   }
+
+   #finalAmount h2,
+   .finalValue {
+      font-size: 40px;
+   }
+}
